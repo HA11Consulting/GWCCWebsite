@@ -1,31 +1,84 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="jumbotron">
-    <h1>Grey Ward Children's Centre</h1>
-    <p class="lead">Grey Ward Children's Centre is a great place</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="row">
+    <div class="banner" class="col-lg-12" style="padding-left:0px;padding-right:0px;" id="Cover"><img src="~/Content/img/Photos/20180727_073240.jpg" style="width: 100%;" /></div>
+    <div id="About">
+        <div class="col-lg-12 rowLight">
+            <br />
+            <h2>Welcome to Grey Ward Children's Centre</h2>
+            <br />
+        </div>
+    </div>
+</div>
+<div class="row rowDark hidden">
+    <div id="services">
+        <div class="col-lg-4">
+            <div class="circle center-block"><img id="TranIcon" src="~/Content/img/TrainTrans.png" /></div>
+            <h3>Train Control and Telecommunications,<br /> National Train Control Systems</h3>
+            <p>
+                ICE unit Configuration<br />
+                Configuration control and support<br />
+                Software / Hardware testing and deployment<br />
+                NTCS operational Training
+            </p>
+        </div>
+        <div class="col-lg-4">
+            <div class="circle center-block"><img id="TechIcon" src="~/Content/img/TechnologyTrans.png" /></div>
+            <h3>Integrated Technology Solutions for Business</h3>
+            <p>improvements and strategic planning</p>
+            Infrastructure Management<br />
+            Project Management<br />
+            Change Management<br />
+            Website development</p>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="circle center-block"><img id="DroneIcon" src="~/Content/img/DroneTrans.png" /></div>
+            <h3>Drone Photography</h3>
+            <p>
+                Video compilation<br />
+                Promotional Videos<br />
+                Infrastructure inspections
+            </p>
+        </div>
+    </div>
+</div>
+<div class="row rowLight">
+    <div class="col-lg-12" id="Contact">
+        <h3>Contact us</h3>
+        <center>
+            <span>
+                HA11 Consulting Pty Ltd<br />
+                <b>P:</b> 0417 819 405<br />
+                <b>E:</b> <a href="mailto:John@ha11.com.au" target="_top">John@ha11.com.au</a><br />
+                <br />
+                ABN 35 618 474 203
+            </span>
+        </center>
+    </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+<script>
+    var imgCount = 0;
+    setInterval(function () {
+        console.log(imgCount%4);
+        imgCount++;
+        switch (imgCount % 4) {
+            case 0:
+                $(".banner img").attr("src", "/Content/img/Photos/20180727_073155.jpg");
+                break;
+            case 1:
+                $(".banner img").attr("src", "/Content/img/Photos/20180727_073231.jpg");
+                break;
+            case 2:
+                $(".banner img").attr("src", "/Content/img/Photos/20180727_073513.jpg");
+                break;
+            case 3:
+                $(".banner img").attr("src", "/Content/img/Photos/20180727_073240.jpg");
+                break;
+        }
+    }, 3000);
+</script>

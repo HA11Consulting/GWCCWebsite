@@ -151,6 +151,18 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\Grey Ward Logo.PNG" />
+    <Content Include="Content\img\Photos\20180727_073155.jpg" />
+    <Content Include="Content\img\Photos\20180727_073205.jpg" />
+    <Content Include="Content\img\Photos\20180727_073216.jpg" />
+    <Content Include="Content\img\Photos\20180727_073231.jpg" />
+    <Content Include="Content\img\Photos\20180727_073240.jpg" />
+    <Content Include="Content\img\Photos\20180727_073253.jpg" />
+    <Content Include="Content\img\Photos\20180727_073320.jpg" />
+    <Content Include="Content\img\Photos\20180727_073357.jpg" />
+    <Content Include="Content\img\Photos\20180727_073513.jpg" />
+    <Content Include="Content\img\Photos\20180727_073620.jpg" />
+    <Content Include="Content\img\Photos\20180727_073640.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -185,6 +197,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

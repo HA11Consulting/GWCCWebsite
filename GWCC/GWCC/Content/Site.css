@@ -22,3 +22,29 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar {
+    background: rgba(255, 255, 255, 0.85);
+    border: 0px;
+    min-height: 200px;
+}
+
+body{
+    padding:0px;
+}
+
+.container {
+    max-width: none;
+}
+
+.banner {
+    /*width: 200px;
+    height: 150px*/
+    overflow: hidden;
+}
+
+.banner img {
+    /*width: 400px;
+    height: 300px;*/
+    margin: -350px -200px -550px 0px;
+}
