@@ -20,9 +20,16 @@ namespace GWCC.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult History()
         {
-            ViewBag.Message = "Contact Us";
+            ViewBag.Message = "History";
+
+            return View();
+        }
+
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "FAQ";
 
             return View();
         }

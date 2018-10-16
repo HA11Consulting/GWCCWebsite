@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace GWCC.Controllers
 {
-    public class ParentsController : Controller
+    public class ContactUsController : Controller
     {
-        // GET: Parents
-        public ActionResult ParentsInfo()
+        // GET: ContactUs
+        public ActionResult ContactUs()
         {
             return View();
         }

@@ -22,31 +22,24 @@
                         <li class="dropdown">
                             @Html.ActionLink("Home", "Index", "Home")
                             <div class="dropdown-content">
-                                @Html.ActionLink("About us", "Index", "Home")
-                                @Html.ActionLink("History", "Index", "Home")
-                                @Html.ActionLink("FAQ", "Index", "Home")
+                                @Html.ActionLink("About us", "About", "Home")
+                                @Html.ActionLink("History", "History", "Home")
+                                @Html.ActionLink("FAQ", "FAQ", "Home")
+                            </div>
+                        </li>
+                        <li>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</li>
+                        <li class="dropdown">@Html.ActionLink("Rooms", "Rooms", "Rooms")
+                            <div class="dropdown-content">
+                                @Html.ActionLink("Junior Kindy", "Rooms", "Rooms")
+                                @Html.ActionLink("Kindergarten", "Rooms", "Rooms")
+                                @Html.ActionLink("Nursery", "Rooms", "Rooms")
+                                @Html.ActionLink("Babyroom", "Rooms", "Rooms")
                             </div>
                         </li>
                         <li class="dropdown">
-                            @Html.ActionLink("Parents and Caregivers", "About", "Home")
+                            @Html.ActionLink("Contact Us", "ContactUs", "ContactUs")
                             <div class="dropdown-content">
-                                @Html.ActionLink("What you need to know", "About", "Home")
-                                @Html.ActionLink("What's on", "About", "Home")
-                                @Html.ActionLink("Forms / Policies", "About", "Home")
-                            </div>
-                        </li>
-                        <li class="dropdown">@Html.ActionLink("Rooms", "Room", "Home")
-                            <div class="dropdown-content">
-                                @Html.ActionLink("Junior Kindy", "Room", "Home")
-                                @Html.ActionLink("Kindergarten", "Room", "Home")
-                                @Html.ActionLink("Nursery", "Room", "Home")
-                                @Html.ActionLink("Babyroom", "Room", "Home")
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            @Html.ActionLink("Contact Us", "Contact", "Home")
-                            <div class="dropdown-content">
-                                @Html.ActionLink("Government site", "Contact", "Home")
+                                <a href="https://www.education.sa.gov.au/" target="_blank">Department for Education</a>
                             </div>
                         </li>
                     </ul>
