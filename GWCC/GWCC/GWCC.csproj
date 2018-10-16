@@ -182,6 +182,8 @@
     <Content Include="Content\img\photos\compressed\20180727_073640.jpg" />
     <Content Include="Content\img\photos\modified\Garden.jpg" />
     <Content Include="Content\img\photos\modified\PlayG.jpg" />
+    <Content Include="Content\img\photos\modified\Playgd3.jpg" />
+    <Content Include="Content\img\photos\modified\Playgd4.jpg" />
     <Content Include="Content\img\photos\modified\Sand_PitV1.jpg" />
     <Content Include="Content\img\photos\raw\20180727_073155.jpg" />
     <Content Include="Content\img\photos\raw\20180727_073205.jpg" />
@@ -231,7 +233,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\ContactOld.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout - Copy.cshtml" />

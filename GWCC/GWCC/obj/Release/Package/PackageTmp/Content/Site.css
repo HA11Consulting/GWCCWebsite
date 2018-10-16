@@ -165,3 +165,19 @@ footer {
     padding: 10px;
     width: 80%;
 }
+
+/*About Us*/
+
+#About p {
+    text-align: justify;
+}
+
+#About li {
+    text-align: left;
+}
+
+/*History*/
+
+#History p {
+    text-align: justify;
+}
