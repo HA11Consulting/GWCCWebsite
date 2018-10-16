@@ -211,6 +211,16 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\img\Grey Ward Logo.xcf" />
+    <Content Include="Content\PolicyAndForm\Enrolment Form.pdf" />
+    <Content Include="Content\PolicyAndForm\Notification of Changes.pdf" />
+    <Content Include="Content\PolicyAndForm\Waiting List Application 2018.pdf" />
+    <Content Include="Content\PolicyAndForm\Child_Protection_Policy.pdf" />
+    <Content Include="Content\PolicyAndForm\Fees_Policy.pdf" />
+    <Content Include="Content\PolicyAndForm\Grievance_Handling_Policy.pdf" />
+    <Content Include="Content\PolicyAndForm\Guiding_Childrens_Behaviour.pdf" />
+    <Content Include="Content\PolicyAndForm\Late_Fee_Policy.pdf" />
+    <Content Include="Content\PolicyAndForm\Privacy_Policy_Statement_for_families.pdf" />
+    <Content Include="Content\PolicyAndForm\Rights of the Child Policy V1.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

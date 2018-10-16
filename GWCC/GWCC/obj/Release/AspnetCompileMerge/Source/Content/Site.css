@@ -181,3 +181,18 @@ footer {
 #History p {
     text-align: justify;
 }
+
+/*ParentsInfo*/
+#ParentsInfo table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ParentsInfo p {
+    text-align: justify;
+}
+
+#ParentsInfo img {
+    width: 40%;
+}
+
