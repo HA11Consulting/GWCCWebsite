@@ -168,6 +168,7 @@
     <Content Include="Content\img\icons\GWCC Late Fees Icon v2.0.png" />
     <Content Include="Content\img\icons\GWCC Meds Icon v2.0.png" />
     <Content Include="Content\img\icons\GWCC Meds Icon v2.1.png" />
+    <Content Include="Content\img\Map.PNG" />
     <Content Include="Content\img\photos\compressed\20180727_073155.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073205.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073216.jpg" />
@@ -221,6 +222,10 @@
     <Content Include="Content\PolicyAndForm\Late_Fee_Policy.pdf" />
     <Content Include="Content\PolicyAndForm\Privacy_Policy_Statement_for_families.pdf" />
     <Content Include="Content\PolicyAndForm\Rights of the Child Policy V1.pdf" />
+    <Content Include="Content\RoomHandBooks\Baby_Room_Handbook.pdf" />
+    <Content Include="Content\RoomHandBooks\JK_Handbook_2018.pdf" />
+    <Content Include="Content\RoomHandBooks\Child Care booklet -ReDesign.pdf" />
+    <Content Include="Content\RoomHandBooks\Kindy handbook 2018 -ReDesign.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

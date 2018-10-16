@@ -11,9 +11,11 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h1>
-                    <img id="GGWCLogo" class="small" src="~/Content/img/Grey Ward Logo Cropped.PNG" alt="Grey Ward Children's Centre" />
-                </h1>
+                <a href="\">
+                    <h1>
+                        <img id="GGWCLogo" class="small" src="~/Content/img/Grey Ward Logo Cropped.PNG" alt="Grey Ward Children's Centre" />
+                    </h1>
+                </a>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
                 <div class="navbar-collapse collapse">
@@ -29,12 +31,12 @@
                         </li>
                         <li>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</li>
                         <li class="dropdown">@Html.ActionLink("Rooms", "Rooms", "Rooms")
-                            <div class="dropdown-content">
+                            <!--<div class="dropdown-content">
                                 @Html.ActionLink("Junior Kindy", "Rooms", "Rooms")
                                 @Html.ActionLink("Kindergarten", "Rooms", "Rooms")
                                 @Html.ActionLink("Nursery", "Rooms", "Rooms")
                                 @Html.ActionLink("Babyroom", "Rooms", "Rooms")
-                            </div>
+                            </div>-->
                         </li>
                         <li class="dropdown">
                             @Html.ActionLink("Contact Us", "ContactUs", "ContactUs")
@@ -64,15 +66,15 @@
             <div class="row">
                 <div id="iconLinks">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>Home</u>
+                        <u>@Html.ActionLink("Home", "Index", "Home")</u>
                         <ul>
-                            <li>About us</li>
-                            <li>History</li>
-                            <li>FAQ</li>
+                            <li>@Html.ActionLink("About us", "About", "Home")</li>
+                            <li>@Html.ActionLink("History", "History", "Home")</li>
+                            <li>@Html.ActionLink("FAQ", "FAQ", "Home")</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>For Parents and Caregivers</u>
+                        <u>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</u>
                         <ul>
                             <li>What you need to know</li>
                             <li>What's on</li>
@@ -80,7 +82,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>Rooms</u>
+                        <u>@Html.ActionLink("Rooms", "Rooms", "Rooms")</u>
                         <ul>
                             <li>Junior Kindy</li>
                             <li>Kindergarten</li>
@@ -89,9 +91,9 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>Contact Us</u>
+                        <u>@Html.ActionLink("Contact Us", "ContactUs", "ContactUs")</u>
                         <ul>
-                            <li>Government site</li>
+                            <li><a href="https://www.education.sa.gov.au/" target="_blank">Department for Education</a></li>
                         </ul>
                     </div>
                 </div>

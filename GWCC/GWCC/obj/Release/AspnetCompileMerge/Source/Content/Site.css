@@ -196,3 +196,18 @@ footer {
     width: 40%;
 }
 
+/*ContactUs*/
+
+#ContactUs h3 {
+    margin-top: 30px;
+}
+
+#ContactUs p {
+    text-align: center;
+}
+
+#ContactUs img {
+    width: 60%;
+    float:left;
+    margin-bottom: 30px;
+}
