@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="page" class="row">
+    <div class="banner" class="col-lg-12" id="Cover"><img src="~/Content/img/photos/modified/PlayG.jpg" /></div>
+    <div id="content">
+        <div id="About">
+            <div class="col-lg-12 rowLight rowContent">
+                <br />
+                <h2>Need to know stuff</h2>
+                <br />
+                <p>	Outline of stuff which is need to know</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var imgCount = 0;
+    setInterval(function () {
+        console.log(imgCount%4);
+        imgCount++;
+        switch (imgCount % 4) {
+            case 0:
+                $(".banner img").attr("src", "/Content/img/photos/modified/Sand_PitV1.jpg");
+                break;
+            case 1:
+                $(".banner img").attr("src", "/Content/img/photos/modified/Garden.jpg");
+                break;
+            case 2:
+                $(".banner img").attr("src", "/Content/img/photos/modified/PlayG.jpg");
+                break;
+        }
+    }, 3000);
+</script>

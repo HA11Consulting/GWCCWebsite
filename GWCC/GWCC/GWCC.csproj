@@ -143,6 +143,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ParentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -151,27 +152,62 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\Grey Ward Logo Cropped.PNG" />
     <Content Include="Content\img\Grey Ward Logo.PNG" />
-    <Content Include="Content\img\Photos\20180727_073155.jpg" />
-    <Content Include="Content\img\Photos\20180727_073205.jpg" />
-    <Content Include="Content\img\Photos\20180727_073216.jpg" />
-    <Content Include="Content\img\Photos\20180727_073231.jpg" />
-    <Content Include="Content\img\Photos\20180727_073240.jpg" />
-    <Content Include="Content\img\Photos\20180727_073253.jpg" />
-    <Content Include="Content\img\Photos\20180727_073320.jpg" />
-    <Content Include="Content\img\Photos\20180727_073357.jpg" />
-    <Content Include="Content\img\Photos\20180727_073513.jpg" />
-    <Content Include="Content\img\Photos\20180727_073620.jpg" />
-    <Content Include="Content\img\Photos\20180727_073640.jpg" />
-    <Content Include="favicon.ico" />
+    <Content Include="Content\img\icons\GWCC Child Icon v2.0.png" />
+    <Content Include="Content\img\icons\GWCC Child Icon v2.1.png" />
+    <Content Include="Content\img\icons\GWCC Fees Icon v2.0.png" />
+    <Content Include="Content\img\icons\GWCC Fees policy Icon v2.0.png" />
+    <Content Include="Content\img\icons\GWCC Grievance policy Icon v5.png" />
+    <Content Include="Content\img\icons\GWCC Health Icon v2.0 copy.png" />
+    <Content Include="Content\img\icons\GWCC Health Icon v2.1 copy.png" />
+    <Content Include="Content\img\icons\GWCC Health v2 Icon copy copy.png" />
+    <Content Include="Content\img\icons\GWCC Health v2 Icon copy.png" />
+    <Content Include="Content\img\icons\GWCC Late Fees Icon v2.0.png" />
+    <Content Include="Content\img\icons\GWCC Meds Icon v2.0.png" />
+    <Content Include="Content\img\icons\GWCC Meds Icon v2.1.png" />
+    <Content Include="Content\img\photos\compressed\20180727_073155.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073205.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073216.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073231.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073240 - Copy.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073240.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073253.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073320.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073357.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073513.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073620.jpg" />
+    <Content Include="Content\img\photos\compressed\20180727_073640.jpg" />
+    <Content Include="Content\img\photos\modified\Garden.jpg" />
+    <Content Include="Content\img\photos\modified\PlayG.jpg" />
+    <Content Include="Content\img\photos\modified\Sand_PitV1.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073155.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073205.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073216.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073231.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073240.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073253.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073320.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073357.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073513.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073620.jpg" />
+    <Content Include="Content\img\photos\raw\20180727_073640.jpg" />
+    <Content Include="Content\img\photos\rooms\juniorkindy_1M.jpg" />
+    <Content Include="Content\img\photos\rooms\juniorkindy_2M.jpg" />
+    <Content Include="Content\img\photos\rooms\juniorkindy_3M.jpg" />
+    <Content Include="Content\img\photos\rooms\juniorkindy_5M.jpg" />
+    <Content Include="faviconOld.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\img\Grey Ward Logo.xcf" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -183,25 +219,29 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout - Copy.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\img\photos\editted\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Parents\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -214,7 +254,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
