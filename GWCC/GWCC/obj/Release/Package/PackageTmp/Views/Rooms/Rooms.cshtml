@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Rooms";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -15,6 +15,18 @@
                     <br />
                     <p>
                         <a href="~/Content/RoomHandBooks/JK_Handbook_2018.pdf" target="_blank">Click here for the handbook</a>
+
+                        <script>
+                            console.log("Local Host");
+                            JuniorUrl = (window.location.host + "/Content/RoomHandBooks/JK_Handbook_2018.pdf");
+                            $("#JuniorPDF").html = '<embed src="' + JuniorUrl+'" width="500" height="375">';
+                        </script>
+                        
+                        <span id="JuniorPDF">
+
+                        </span>
+                        
+
                     </p>
                 </td>
                 <td>

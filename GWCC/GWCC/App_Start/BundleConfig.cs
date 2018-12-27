@@ -23,6 +23,9 @@ namespace GWCC
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/pdfjs").Include(
+            "~/Scripts/pdf.js/build/pdf.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                      "~/Content/site.css",
                      "~/Content/bootstrap.css"

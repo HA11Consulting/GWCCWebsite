@@ -150,26 +150,21 @@
     margin-right: auto;
 }
 
-#ParentsInfo p {
-    text-align: justify;
-}
-
 #ParentsInfo img {
     width: 30%;
 }
 
-/* Useful links */
-#UsefulLinks {
-    padding: 20px;
+#ParentsInfo p {
+    text-align: justify;
 }
 
+/* Useful links */
 #UsefulLinks .centered-container {
     /*background-color: #F6F6F6;*/
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    max-width: 300px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.04);
@@ -224,7 +219,8 @@
 
 #UsefulLinks td {
     padding: 10px;
-    height: 100px;
+    max-height: 100px;
+    width: 300px;
 }
 
 /*Rooms*/
