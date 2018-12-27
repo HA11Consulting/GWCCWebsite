@@ -13,5 +13,24 @@ namespace GWCC.Controllers
         {
             return View();
         }
+
+        public ActionResult UsefulLinks()
+        {
+            ViewBag.Message = "UsefulLinks";
+
+            return View();
+        }
+        public ActionResult FAQ()
+        {
+            ViewBag.Message = "FAQ";
+
+            return View();
+        }
+        public ActionResult Testimonials()
+        {
+            ViewBag.Message = "Testimonials";
+
+            return View();
+        }       
     }
 }

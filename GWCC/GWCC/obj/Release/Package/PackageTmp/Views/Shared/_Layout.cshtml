@@ -9,153 +9,188 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" id="bootstrap-overrides-nav">
         <div class="container row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <a href="\">
-                    <h1>
-                        <img id="GGWCLogo" class="small" src="~/Content/img/Grey Ward Logo Cropped.PNG" alt="Grey Ward Children's Centre" />
-                    </h1>
-                </a>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-                <div class="navbar-collapse collapse">
-                    @Html.ActionLink("Grey Ward Children's Centre", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            @Html.ActionLink("Home", "Index", "Home")
-                            <div class="dropdown-content">
-                                @Html.ActionLink("About us", "About", "Home")
-                                @Html.ActionLink("History", "History", "Home")
-                                @Html.ActionLink("FAQ", "FAQ", "Home")
-                            </div>
-                        </li>
-                        <li>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</li>
-                        <li class="dropdown">@Html.ActionLink("Rooms", "Rooms", "Rooms")
-                            <!--<div class="dropdown-content">
-                                @Html.ActionLink("Junior Kindy", "Rooms", "Rooms")
-                                @Html.ActionLink("Kindergarten", "Rooms", "Rooms")
-                                @Html.ActionLink("Nursery", "Rooms", "Rooms")
-                                @Html.ActionLink("Babyroom", "Rooms", "Rooms")
-                            </div>-->
-                        </li>
-                        <li class="dropdown">
-                            @Html.ActionLink("Contact Us", "ContactUs", "ContactUs")
-                            <div class="dropdown-content">
-                                <a href="https://www.education.sa.gov.au/" target="_blank">Department for Education</a>
-                            </div>
-                        </li>
-                    </ul>
+            <div id="navbar-content">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="/" id="navbar-header"><img id="GGWCLogo" class="small" src="~/Content/img/Grey Ward Logo Cropped.PNG" alt="Grey Ward Children's Centre" /><span><header>Grey Ward Children's Centre</header>253 Wright Street Adelaide SA 5000 - 08 8231 9195</span></a>
                 </div>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar">t</span>
-                        <span class="icon-bar">d</span>
-                        <span class="icon-bar">w</span>
-                    </button>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                @Html.ActionLink("Home", "Index", "Home")
+                                <div class="dropdown-content">
+                                    @Html.ActionLink("Our Philosophy and Goals", "About", "Home")
+                                    @Html.ActionLink("Our History", "History", "Home")
+                                    @Html.ActionLink("Our Team", "Team", "Home")
+                                    @Html.ActionLink("Governance", "Governance", "Home")
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                @Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")
+                                <div class="dropdown-content">
+                                    <a href="https://www.humanservices.gov.au/individuals/services/centrelink/child-care-subsidy" target="_blank">Child Care Subsidy</a>
+                                    @Html.ActionLink("Frequently Asked Questions", "FAQ", "Parents")
+                                    @Html.ActionLink("Forms", "ParentsInfo", "Parents")
+                                    @Html.ActionLink("Useful Links", "UsefulLinks", "Parents")
+                                    @Html.ActionLink("Testimonials", "Testimonials", "Parents")
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                @Html.ActionLink("Rooms", "Rooms", "Rooms")
+                                <div class="dropdown-content">
+                                    @Html.ActionLink("Babies", "Rooms", "Rooms")
+                                    @Html.ActionLink("Nursery", "Rooms", "Rooms")
+                                    @Html.ActionLink("Junior Kindy", "Rooms", "Rooms")
+                                    @Html.ActionLink("Kindy", "Rooms", "Rooms")
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                @Html.ActionLink("Contact", "ContactUs", "ContactUs")
+                                <div class="dropdown-content">
+                                    @Html.ActionLink("Director email", "ContactUs", "ContactUs")
+                                    @Html.ActionLink("Admin email", "ContactUs", "ContactUs")
+                                    @Html.ActionLink("Address/Phone", "ContactUs", "ContactUs")
+                                    @Html.ActionLink("Link to Map", "ContactUs", "ContactUs")
+                                    @Html.ActionLink("Facebook", "ContactUs", "ContactUs")
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-4">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
 
+                </div>
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <div class="row">
+    @RenderBody()
+    <footer>
+        <div class="row">
+            <div id="footer-content">
                 <div id="iconLinks">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>@Html.ActionLink("Home", "Index", "Home")</u>
+                        <span>@Html.ActionLink("Home", "Index", "Home")</span>
                         <ul>
-                            <li>@Html.ActionLink("About us", "About", "Home")</li>
-                            <li>@Html.ActionLink("History", "History", "Home")</li>
-                            <li>@Html.ActionLink("FAQ", "FAQ", "Home")</li>
+                            <li>
+                                @Html.ActionLink("Our Philosophy and Goals", "About", "Home")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Our History", "History", "Home")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Our Team", "Team", "Home")
+                            </li>
+                            <li> @Html.ActionLink("Governance", "Governance", "Home")</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</u>
+                        <span>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</span>
                         <ul>
-                            <li>What you need to know</li>
-                            <li>What's on</li>
-                            <li>Forms / Policies</li>
+                            <li>@Html.ActionLink("Child Care Subsidy", "ChildCareSubsidy", "Parents")</li>
+                            <li>@Html.ActionLink("Frequently Asked Questions", "FAQ", "Parents")</li>
+                            <li>@Html.ActionLink("Forms", "FAQ", "Parents")</li>
+                            <li>@Html.ActionLink("Useful Links", "FAQ", "Parents")</li>
+                            <li>@Html.ActionLink("Testimonials", "FAQ", "Parents")</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>@Html.ActionLink("Rooms", "Rooms", "Rooms")</u>
+                        <span>@Html.ActionLink("Rooms", "Rooms", "Rooms")</span>
                         <ul>
-                            <li>Junior Kindy</li>
-                            <li>Kindergarten</li>
-                            <li>Nursery</li>
-                            <li>Babyroom</li>
+                            <li>
+                                @Html.ActionLink("Babies", "Rooms", "Rooms")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Nursery", "Rooms", "Rooms")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Junior Kindy", "Rooms", "Rooms")
+                            </li>
+                            <li>@Html.ActionLink("Kindy", "Rooms", "Rooms")</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <u>@Html.ActionLink("Contact Us", "ContactUs", "ContactUs")</u>
+                        <span>@Html.ActionLink("Contact Us", "ContactUs", "ContactUs")</span>
                         <ul>
-                            <li><a href="https://www.education.sa.gov.au/" target="_blank">Department for Education</a></li>
+                            <li>
+                                @Html.ActionLink("Director email", "ContactUs", "ContactUs")
+                            </li>
+                            <li> @Html.ActionLink("Admin email", "ContactUs", "ContactUs")</li>
+                            <li>
+                                @Html.ActionLink("Address/Phone", "ContactUs", "ContactUs")
+                            </li>
+                            <li>
+                                @Html.ActionLink("Link to Map", "ContactUs", "ContactUs")
+                            </li>
+                            <li>   @Html.ActionLink("Facebook", "ContactUs", "ContactUs")</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <p>&copy; @DateTime.Now.Year - Grey Ward Children's Centre</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 
-<script>
-    $(document).ready(function () {
-        setInterval(function () {
-            //location.reload();
-        }, 30000);
-
-
-    /*    var smallIcon = false;
-
+    <script>
         $(document).ready(function () {
-            var count = 1;
-            $("#GGWCLogo").on('click', function () {
-                var $this = $(this);
-                $this.removeClass('small, large', 400);
-                $this.addClass((count == 1) ? 'large' : 'small', 400);
-                count = 1 - count;
-            })
+            setInterval(function () {
+                // location.reload();
+            }, 3000);
+
+
+            /*    var smallIcon = false;
+
+                $(document).ready(function () {
+                    var count = 1;
+                    $("#GGWCLogo").on('click', function () {
+                        var $this = $(this);
+                        $this.removeClass('small, large', 400);
+                        $this.addClass((count == 1) ? 'large' : 'small', 400);
+                        count = 1 - count;
+                    })
+                });
+
+                $(window).on('scroll', function () {
+                    var scrollAmount = $(window).scrollTop(),
+                        d = $(document).height(),
+                        c = $(window).height();
+
+                    var scrollPercent = (scrollAmount / (d - c)) * 100;
+
+                    console.log(scrollAmount>$(".banner img").height() - $(".navbar").height());
+
+
+                    var changePercentage = 10;
+                    var iconWidth = $("#GGWCLogo").width;
+
+                    if (scrollAmount - 20 >= $(".banner img").height() - $(".navbar").height() && smallIcon == false) {
+                        console.log("Small");
+                        smallIcon = true;
+                        $("#GGWCLogo").animate({
+                            width: "20%",
+                            height: "100%"
+                        });
+                    } else if (scrollAmount + 20 < $(".banner img").height() - $(".navbar").height() && smallIcon == true) {
+                        console.log("Big");
+                        smallIcon = false;
+                        $("#GGWCLogo").animate({
+                            width: "30%",
+                            height: "100%"
+                        });
+                    }
+                });*/
         });
-
-        $(window).on('scroll', function () {
-            var scrollAmount = $(window).scrollTop(),
-                d = $(document).height(),
-                c = $(window).height();
-
-            var scrollPercent = (scrollAmount / (d - c)) * 100;
-
-            console.log(scrollAmount>$(".banner img").height() - $(".navbar").height());
-
-
-            var changePercentage = 10;
-            var iconWidth = $("#GGWCLogo").width;
-
-            if (scrollAmount - 20 >= $(".banner img").height() - $(".navbar").height() && smallIcon == false) {
-                console.log("Small");
-                smallIcon = true;
-                $("#GGWCLogo").animate({
-                    width: "20%",
-                    height: "100%"
-                });
-            } else if (scrollAmount + 20 < $(".banner img").height() - $(".navbar").height() && smallIcon == true) {
-                console.log("Big");
-                smallIcon = false;
-                $("#GGWCLogo").animate({
-                    width: "30%",
-                    height: "100%"
-                });
-            }
-        });*/
-    });
-</script>
+    </script>
 </body>
 </html>

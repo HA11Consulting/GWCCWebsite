@@ -27,11 +27,19 @@ namespace GWCC.Controllers
             return View();
         }
 
-        public ActionResult FAQ()
+        public ActionResult Governance()
         {
-            ViewBag.Message = "FAQ";
+            ViewBag.Message = "Governance";
 
             return View();
         }
+
+        public ActionResult Team()
+        {
+            ViewBag.Message = "Our Team";
+
+            return View();
+        }
+
     }
 }

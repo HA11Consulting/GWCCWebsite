@@ -181,7 +181,12 @@
     <Content Include="Content\img\photos\compressed\20180727_073513.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073620.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073640.jpg" />
+    <Content Include="Content\img\photos\final\BlackWhiteOld.png" />
+    <Content Include="Content\img\photos\final\GWCC_yard.jpg" />
+    <Content Include="Content\img\photos\final\PlayG.jpg" />
+    <Content Include="Content\img\photos\final\Toys.jpg" />
     <Content Include="Content\img\photos\modified\Garden.jpg" />
+    <Content Include="Content\img\photos\modified\GWCC_yard.jpg" />
     <Content Include="Content\img\photos\modified\PlayG.jpg" />
     <Content Include="Content\img\photos\modified\Playgd3.jpg" />
     <Content Include="Content\img\photos\modified\Playgd4.jpg" />
@@ -257,8 +262,12 @@
     <Content Include="Views\Parents\ParentsInfo.cshtml" />
     <Content Include="Views\ContactUs\ContactUs.cshtml" />
     <Content Include="Views\Rooms\Rooms.cshtml" />
-    <Content Include="Views\Home\FAQ.cshtml" />
+    <Content Include="Views\Parents\FAQ.cshtml" />
     <Content Include="Views\Home\History.cshtml" />
+    <Content Include="Views\Home\Governance.cshtml" />
+    <Content Include="Views\Home\Team.cshtml" />
+    <Content Include="Views\Parents\UsefulLinks.cshtml" />
+    <Content Include="Views\Parents\Testimonials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
