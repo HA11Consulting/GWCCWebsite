@@ -227,6 +227,13 @@
     height: 100px;
 }
 
+/*Rooms*/
+#Rooms td {
+    padding: 10px;
+}
+#Rooms p {
+    text-align: justify;
+}
 /*ContactUs*/
 #ContactUs h3 {
     text-align: justify;
