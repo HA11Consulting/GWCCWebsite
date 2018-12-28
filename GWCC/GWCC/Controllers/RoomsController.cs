@@ -13,5 +13,21 @@ namespace GWCC.Controllers
         {
             return View();
         }
+        public ActionResult JuniorKindy()
+        {
+            return View();
+        }
+        public ActionResult Kindergarten()
+        {
+            return View();
+        }
+        public ActionResult Nursery()
+        {
+            return View();
+        }
+        public ActionResult Babies()
+        {
+            return View();
+        }
     }
 }

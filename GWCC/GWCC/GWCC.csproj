@@ -181,10 +181,25 @@
     <Content Include="Content\img\photos\compressed\20180727_073513.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073620.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073640.jpg" />
+    <Content Include="Content\img\photos\final\babiesbanner.jpg" />
+    <Content Include="Content\img\photos\final\babiespic.jpg" />
     <Content Include="Content\img\photos\final\BlackWhiteOld.png" />
+    <Content Include="Content\img\photos\final\Bridge.jpg" />
+    <Content Include="Content\img\photos\final\buckets.jpg" />
     <Content Include="Content\img\photos\final\GWCC_yard.jpg" />
+    <Content Include="Content\img\photos\final\jnrkindybanner.jpg" />
+    <Content Include="Content\img\photos\final\jnrkindypic.jpg" />
+    <Content Include="Content\img\photos\final\kindy1.jpg" />
+    <Content Include="Content\img\photos\final\kindybanner.jpg" />
+    <Content Include="Content\img\photos\final\nurserybanner.jpg" />
+    <Content Include="Content\img\photos\final\nurserypic.jpg" />
+    <Content Include="Content\img\photos\final\pg2.jpg" />
+    <Content Include="Content\img\photos\final\pg3.jpg" />
+    <Content Include="Content\img\photos\final\pggym.jpg" />
     <Content Include="Content\img\photos\final\PlayG.jpg" />
+    <Content Include="Content\img\photos\final\room.jpg" />
     <Content Include="Content\img\photos\final\Toys.jpg" />
+    <Content Include="Content\img\photos\final\Yard.jpg" />
     <Content Include="Content\img\photos\modified\Garden.jpg" />
     <Content Include="Content\img\photos\modified\GWCC_yard.jpg" />
     <Content Include="Content\img\photos\modified\PlayG.jpg" />
@@ -227,10 +242,10 @@
     <Content Include="Content\PolicyAndForm\Late_Fee_Policy.pdf" />
     <Content Include="Content\PolicyAndForm\Privacy_Policy_Statement_for_families.pdf" />
     <Content Include="Content\PolicyAndForm\Rights of the Child Policy V1.pdf" />
-    <Content Include="Content\RoomHandBooks\Baby_Room_Handbook.pdf" />
-    <Content Include="Content\RoomHandBooks\JK_Handbook_2018.pdf" />
-    <Content Include="Content\RoomHandBooks\Child Care booklet -ReDesign.pdf" />
-    <Content Include="Content\RoomHandBooks\Kindy handbook 2018 -ReDesign.pdf" />
+    <Content Include="Content\RoomHandBooks\GWCC_Babies_Handbook.pdf" />
+    <Content Include="Content\RoomHandBooks\GWCC_Junior_Kindy_Handbook.pdf" />
+    <Content Include="Content\RoomHandBooks\GWCC_Kindergarten_Handbook_Dec_2018.pdf" />
+    <Content Include="Content\RoomHandBooks\GWCC_Nursery_Handbook.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -268,6 +283,10 @@
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Parents\UsefulLinks.cshtml" />
     <Content Include="Views\Parents\Testimonials.cshtml" />
+    <Content Include="Views\Rooms\JuniorKindy.cshtml" />
+    <Content Include="Views\Rooms\Nursery.cshtml" />
+    <Content Include="Views\Rooms\Kindergarten.cshtml" />
+    <Content Include="Views\Rooms\Babies.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

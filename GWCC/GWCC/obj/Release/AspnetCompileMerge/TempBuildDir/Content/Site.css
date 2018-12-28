@@ -224,12 +224,36 @@
 }
 
 /*Rooms*/
-#Rooms td {
-    padding: 10px;
+.Rooms embed {
+    width: 500px;
+    height: 600px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: teal;
 }
-#Rooms p {
+
+.Rooms p {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
     text-align: justify;
 }
+
+.Rooms img {
+    padding-top: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Rooms td {
+    min-width: 400px;
+    vertical-align: top;
+    align-content: center;
+}
+
 /*ContactUs*/
 #ContactUs h3 {
     text-align: justify;

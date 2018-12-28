@@ -7,6 +7,11 @@
     <title>GWCC - @ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" id="bootstrap-overrides-nav">
@@ -38,12 +43,12 @@
                                 </div>
                             </li>
                             <li class="dropdown">
-                                @Html.ActionLink("Rooms", "Rooms", "Rooms")
+                                @Html.ActionLink("Rooms", "Babies", "Rooms")
                                 <div class="dropdown-content">
-                                    @Html.ActionLink("Babies", "Rooms", "Rooms")
-                                    @Html.ActionLink("Nursery", "Rooms", "Rooms")
-                                    @Html.ActionLink("Junior Kindy", "Rooms", "Rooms")
-                                    @Html.ActionLink("Kindy", "Rooms", "Rooms")
+                                    @Html.ActionLink("Babies", "Babies", "Rooms")
+                                    @Html.ActionLink("Nursery", "Nursery", "Rooms")
+                                    @Html.ActionLink("Junior Kindy", "JuniorKindy", "Rooms")
+                                    @Html.ActionLink("Kindergarten", "Kindergarten", "Rooms")
                                 </div>
                             </li>
                             <li class="dropdown">
@@ -94,11 +99,11 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <span>@Html.ActionLink("Parents and Caregivers", "ParentsInfo", "Parents")</span>
                         <ul>
-                            <li>@Html.ActionLink("Child Care Subsidy", "ChildCareSubsidy", "Parents")</li>
+                            <li><a href="https://www.humanservices.gov.au/individuals/services/centrelink/child-care-subsidy" target="_blank">Child Care Subsidy</a></li>
                             <li>@Html.ActionLink("Frequently Asked Questions", "FAQ", "Parents")</li>
-                            <li>@Html.ActionLink("Forms", "FAQ", "Parents")</li>
-                            <li>@Html.ActionLink("Useful Links", "FAQ", "Parents")</li>
-                            <li>@Html.ActionLink("Testimonials", "FAQ", "Parents")</li>
+                            <li>@Html.ActionLink("Forms", "ParentsInfo", "Parents")</li>
+                            <li>@Html.ActionLink("Useful Links", "UsefulLinks", "Parents")</li>
+                            <li>@Html.ActionLink("Testimonials", "Testimonials", "Parents")</li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -132,61 +137,5 @@
             </div>
         </div>
     </footer>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/pdfjs")
-    @RenderSection("scripts", required: false)
-
-    <script>
-        $(document).ready(function () {
-            setInterval(function () {
-                // location.reload();
-            }, 3000);
-
-
-            /*    var smallIcon = false;
-
-                $(document).ready(function () {
-                    var count = 1;
-                    $("#GGWCLogo").on('click', function () {
-                        var $this = $(this);
-                        $this.removeClass('small, large', 400);
-                        $this.addClass((count == 1) ? 'large' : 'small', 400);
-                        count = 1 - count;
-                    })
-                });
-
-                $(window).on('scroll', function () {
-                    var scrollAmount = $(window).scrollTop(),
-                        d = $(document).height(),
-                        c = $(window).height();
-
-                    var scrollPercent = (scrollAmount / (d - c)) * 100;
-
-                    console.log(scrollAmount>$(".banner img").height() - $(".navbar").height());
-
-
-                    var changePercentage = 10;
-                    var iconWidth = $("#GGWCLogo").width;
-
-                    if (scrollAmount - 20 >= $(".banner img").height() - $(".navbar").height() && smallIcon == false) {
-                        console.log("Small");
-                        smallIcon = true;
-                        $("#GGWCLogo").animate({
-                            width: "20%",
-                            height: "100%"
-                        });
-                    } else if (scrollAmount + 20 < $(".banner img").height() - $(".navbar").height() && smallIcon == true) {
-                        console.log("Big");
-                        smallIcon = false;
-                        $("#GGWCLogo").animate({
-                            width: "30%",
-                            height: "100%"
-                        });
-                    }
-                });*/
-        });
-    </script>
 </body>
 </html>
