@@ -154,6 +154,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\ExceedingLogo.jpg" />
     <Content Include="Content\img\Grey Ward Logo Cropped.PNG" />
     <Content Include="Content\img\Grey Ward Logo.PNG" />
     <Content Include="Content\img\icons\GWCC Child Icon v2.0.png" />
@@ -168,6 +169,13 @@
     <Content Include="Content\img\icons\GWCC Late Fees Icon v2.0.png" />
     <Content Include="Content\img\icons\GWCC Meds Icon v2.0.png" />
     <Content Include="Content\img\icons\GWCC Meds Icon v2.1.png" />
+    <Content Include="Content\img\icons\OurTeam\Cook.gif" />
+    <Content Include="Content\img\icons\OurTeam\Debbie.gif" />
+    <Content Include="Content\img\icons\OurTeam\Lisa1.gif" />
+    <Content Include="Content\img\icons\Testimonials\2-%27Mother%27.gif" />
+    <Content Include="Content\img\icons\Testimonials\Fairy-Flowers-2.gif" />
+    <Content Include="Content\img\icons\Testimonials\See-Saw.gif" />
+    <Content Include="Content\img\icons\Testimonials\Wattle-Fairy.gif" />
     <Content Include="Content\img\Map.PNG" />
     <Content Include="Content\img\photos\compressed\20180727_073155.jpg" />
     <Content Include="Content\img\photos\compressed\20180727_073205.jpg" />
@@ -186,11 +194,15 @@
     <Content Include="Content\img\photos\final\BlackWhiteOld.png" />
     <Content Include="Content\img\photos\final\Bridge.jpg" />
     <Content Include="Content\img\photos\final\buckets.jpg" />
+    <Content Include="Content\img\communitychildrenscentres_L.png" />
+    <Content Include="Content\img\photos\final\Garden2.jpg" />
+    <Content Include="Content\img\photos\final\gardenGrass.jpg" />
     <Content Include="Content\img\photos\final\GWCC_yard.jpg" />
     <Content Include="Content\img\photos\final\jnrkindybanner.jpg" />
     <Content Include="Content\img\photos\final\jnrkindypic.jpg" />
     <Content Include="Content\img\photos\final\kindy1.jpg" />
     <Content Include="Content\img\photos\final\kindybanner.jpg" />
+    <Content Include="Content\img\photos\final\Matt_Greyward_GS.jpg" />
     <Content Include="Content\img\photos\final\nurserybanner.jpg" />
     <Content Include="Content\img\photos\final\nurserypic.jpg" />
     <Content Include="Content\img\photos\final\pg2.jpg" />
@@ -236,7 +248,6 @@
     <Content Include="Content\PolicyAndForm\Notification of Changes.pdf" />
     <Content Include="Content\PolicyAndForm\Waiting List Application 2018.pdf" />
     <Content Include="Content\PolicyAndForm\Child_Protection_Policy.pdf" />
-    <Content Include="Content\PolicyAndForm\Fees_Policy.pdf" />
     <Content Include="Content\PolicyAndForm\Grievance_Handling_Policy.pdf" />
     <Content Include="Content\PolicyAndForm\Guiding_Childrens_Behaviour.pdf" />
     <Content Include="Content\PolicyAndForm\Late_Fee_Policy.pdf" />
@@ -244,8 +255,9 @@
     <Content Include="Content\PolicyAndForm\Rights of the Child Policy V1.pdf" />
     <Content Include="Content\RoomHandBooks\GWCC_Babies_Handbook.pdf" />
     <Content Include="Content\RoomHandBooks\GWCC_Junior_Kindy_Handbook.pdf" />
-    <Content Include="Content\RoomHandBooks\GWCC_Kindergarten_Handbook_Dec_2018.pdf" />
+    <Content Include="Content\PolicyAndForm\Fees_Policy.pdf" />
     <Content Include="Content\RoomHandBooks\GWCC_Nursery_Handbook.pdf" />
+    <Content Include="Content\RoomHandBooks\GWCC_Kindergarten_Handbook_Dec_2018.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

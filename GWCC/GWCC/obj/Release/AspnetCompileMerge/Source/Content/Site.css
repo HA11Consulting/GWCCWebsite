@@ -27,14 +27,29 @@
 #bootstrap-overrides-nav {
     background: rgba(71, 124, 127, 0.85);
     border: 0px;
-    padding-left: 20%;
-    padding-right: 20%;
+    /*padding-left: 20%;
+    padding-right: 20%;*/
     margin-left: 0px;
     margin-right: 0px;
 }
 
+#navbar-header span {
+    width: 520px;
+    text-align: center;
+}
+
+.navbar-collapse .navbar-nav {
+    padding-left: 20%;
+}
+
 #GGWCLogo {
     width: 200px;
+}
+
+#CCCLogo {
+    width: 200px;
+    float: right;
+    padding-top: 5px;
 }
 
 #navbar-content {
@@ -144,12 +159,79 @@
     text-align: justify;
 }
 
+#History span {
+    font-weight: bold;
+}
+
+#NurseryPhoto {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 250px;
+}
+/*Our Team*/
+#Team .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+}
+
+#Team img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    margin: auto;
+    float: none;
+    display: block;
+    margin-top: -50px;
+    width: 90px;
+    height: 90px;
+}
+
+#Team span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#Team td {
+    padding: 20px;
+    vertical-align: top;
+}
+/*Governance*/
+#Governance p {
+    text-align: justify;
+}
+
+#Governance span {
+    font-weight: bold;
+}
+
+/*FAQ*/
+#FAQ p {
+    text-align: justify;
+}
+
+#FAQ span {
+    font-weight: bold;
+}
 /*ParentsInfo*/
+#ParentsInfo p {
+    text-align: justify;
+}
+
+#ParentsInfo span {
+    font-weight: bold;
+    text-align: left;
+}
 #ParentsInfo table {
     margin-left: auto;
     margin-right: auto;
 }
 
+#ParentsInfo td {
+    width: 25%;
+}
 #ParentsInfo img {
     width: 30%;
 }
@@ -223,6 +305,37 @@
     width: 300px;
 }
 
+/*Testimonials*/
+#Testimonials .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+#Testimonials img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    margin: auto;
+    float: none;
+    display: block;
+    margin-top: -50px;
+    width: 90px;
+    height: 90px;
+}
+
+#Testimonials span {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+#Testimonials td{
+    padding: 20px;
+    vertical-align: top;
+}
 /*Rooms*/
 .Rooms embed {
     width: 500px;
@@ -305,11 +418,15 @@ footer {
     margin-right: auto;
 }
 
-footer span {
-    text-decoration: none;
-    padding-bottom: 20px;
-    font-weight: bold;
+#footer-content div {
+    margin-right: 15px;    
 }
+
+footer span {
+        text-decoration: none;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
 
 footer a {
     color: teal;
@@ -317,10 +434,14 @@ footer a {
 
 footer ul {
     width: 250px;
-    padding-left: 20px;
+    padding-left: 10px;
     list-style-type: none;
 }
 
 footer a:hover {
     color: teal;
+}
+
+#ExceedingLogo img{
+    width: 200px;
 }
