@@ -1,0 +1,450 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding: 0px;
+    background-color: #f6f6f6 !important;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+/* Set padding to keep content from hitting the edges */
+
+
+#bootstrap-overrides-nav a {
+    color: white;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/*header*/
+
+.navbar,
+#bootstrap-overrides-nav {
+    background: rgba(71, 124, 127, 0.85);
+    border: 0px;
+    /*padding-left: 20%;
+    padding-right: 20%;*/
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#navbar-header span {
+    width: 520px;
+    text-align: center;
+}
+
+.navbar-collapse .navbar-nav {
+    padding-left: 20%;
+}
+
+#GGWCLogo {
+    width: 200px;
+}
+
+#CCCLogo {
+    width: 200px;
+    float: right;
+    padding-top: 5px;
+}
+
+#navbar-content {
+    max-width: 980px;
+    margin: auto;
+}
+
+#navbar-header span {
+    position: absolute;
+    padding-left:30px;
+    bottom: 0;
+    font-size: 16px;
+}
+
+#navbar-header span header {
+    font-size: 26px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+    font-weight: bold;
+} 
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a{
+    font-size: 18px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(71, 124, 127, 0.85);
+    min-width: 220px;
+    width: calc(100% + 20px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.text-block {
+    margin-top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.banner img {
+    width: 100%;
+}
+
+#content {
+    text-align: center;
+}
+
+/*About Us*/
+#About span {
+    font-weight: bold;
+}
+#About p {
+    text-align: justify;
+}
+
+#About li {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+/*History*/
+
+#History p {
+    text-align: justify;
+}
+
+#History span {
+    font-weight: bold;
+}
+
+#NurseryPhoto {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 250px;
+}
+/*Our Team*/
+#Team .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+}
+
+#Team img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    margin: auto;
+    float: none;
+    display: block;
+    margin-top: -50px;
+    width: 90px;
+    height: 90px;
+}
+
+#Team span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#Team td {
+    padding: 20px;
+    vertical-align: top;
+}
+/*Governance*/
+#Governance p {
+    text-align: justify;
+}
+
+#Governance span {
+    font-weight: bold;
+}
+
+/*FAQ*/
+#FAQ p {
+    text-align: justify;
+}
+
+#FAQ span {
+    font-weight: bold;
+}
+/*ParentsInfo*/
+#ParentsInfo p {
+    text-align: justify;
+}
+
+#ParentsInfo span {
+    font-weight: bold;
+    text-align: left;
+}
+#ParentsInfo table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ParentsInfo td {
+    width: 25%;
+}
+#ParentsInfo img {
+    width: 30%;
+}
+
+#ParentsInfo p {
+    text-align: justify;
+}
+
+/* Useful links */
+#UsefulLinks .centered-container {
+    /*background-color: #F6F6F6;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.04);
+}
+
+.link {
+    color: teal;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+#UsefulLinks .centered-container:hover {
+    background-color: #f6f6f6;
+}
+
+.link--arrowed {
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.link--arrowed .arrow-icon {
+    position: relative;
+    top: -1px;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    vertical-align: middle;
+}
+
+.link--arrowed .arrow-icon--circle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+
+.link--arrowed:hover .arrow-icon {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+}
+
+.link--arrowed:hover .arrow-icon--circle {
+    stroke-dashoffset: 0;
+}
+
+
+#UsefulLinks td {
+    padding: 10px;
+    max-height: 100px;
+    width: 300px;
+}
+
+/*Testimonials*/
+#Testimonials .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+#Testimonials img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    margin: auto;
+    float: none;
+    display: block;
+    margin-top: -50px;
+    width: 90px;
+    height: 90px;
+}
+
+#Testimonials span {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+#Testimonials td{
+    padding: 20px;
+    vertical-align: top;
+}
+/*Rooms*/
+.Rooms embed {
+    width: 500px;
+    height: 600px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: teal;
+}
+
+.Rooms p {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.Rooms img {
+    padding-top: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Rooms td {
+    min-width: 400px;
+    vertical-align: top;
+    align-content: center;
+}
+
+/*ContactUs*/
+#ContactUs h3 {
+    text-align: justify;
+}
+
+#ContactUs .feedback h3 {
+    text-align: center;
+}
+
+#ContactUs p {
+    text-align: justify;
+}
+
+
+#ContactUs td {
+    vertical-align: top;
+    align-content: center;
+    padding: 20px;
+}
+
+#ContactUs iframe {
+    height: 300px;
+    width: 450px;
+}
+
+.mapouter {
+    text-align: right;
+    height: 300px;
+    width: 450px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 450px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 40px;
+}
+
+#footer-content {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-content div {
+    margin-right: 15px;    
+}
+
+footer span {
+        text-decoration: none;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+
+footer a {
+    color: teal;
+}
+
+footer ul {
+    width: 250px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+footer a:hover {
+    color: teal;
+}
+
+#ExceedingLogo img{
+    width: 200px;
+}
