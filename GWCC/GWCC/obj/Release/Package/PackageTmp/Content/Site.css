@@ -144,13 +144,16 @@
 }
 
 /*About Us*/
-
+#About span {
+    font-weight: bold;
+}
 #About p {
     text-align: justify;
 }
 
 #About li {
     text-align: left;
+    padding-bottom: 20px;
 }
 
 /*History*/

@@ -176,19 +176,6 @@
     <Content Include="Content\img\icons\Testimonials\Fairy-Flowers-2.gif" />
     <Content Include="Content\img\icons\Testimonials\See-Saw.gif" />
     <Content Include="Content\img\icons\Testimonials\Wattle-Fairy.gif" />
-    <Content Include="Content\img\Map.PNG" />
-    <Content Include="Content\img\photos\compressed\20180727_073155.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073205.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073216.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073231.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073240 - Copy.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073240.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073253.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073320.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073357.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073513.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073620.jpg" />
-    <Content Include="Content\img\photos\compressed\20180727_073640.jpg" />
     <Content Include="Content\img\photos\final\babiesbanner.jpg" />
     <Content Include="Content\img\photos\final\babiespic.jpg" />
     <Content Include="Content\img\photos\final\BlackWhiteOld.png" />
@@ -212,23 +199,6 @@
     <Content Include="Content\img\photos\final\room.jpg" />
     <Content Include="Content\img\photos\final\Toys.jpg" />
     <Content Include="Content\img\photos\final\Yard.jpg" />
-    <Content Include="Content\img\photos\modified\Garden.jpg" />
-    <Content Include="Content\img\photos\modified\GWCC_yard.jpg" />
-    <Content Include="Content\img\photos\modified\PlayG.jpg" />
-    <Content Include="Content\img\photos\modified\Playgd3.jpg" />
-    <Content Include="Content\img\photos\modified\Playgd4.jpg" />
-    <Content Include="Content\img\photos\modified\Sand_PitV1.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073155.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073205.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073216.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073231.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073240.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073253.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073320.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073357.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073513.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073620.jpg" />
-    <Content Include="Content\img\photos\raw\20180727_073640.jpg" />
     <Content Include="Content\img\photos\rooms\juniorkindy_1M.jpg" />
     <Content Include="Content\img\photos\rooms\juniorkindy_2M.jpg" />
     <Content Include="Content\img\photos\rooms\juniorkindy_3M.jpg" />
@@ -253,12 +223,14 @@
     <Content Include="Content\PolicyAndForm\Late_Fee_Policy.pdf" />
     <Content Include="Content\PolicyAndForm\Privacy_Policy_Statement_for_families.pdf" />
     <Content Include="Content\PolicyAndForm\Rights of the Child Policy V1.pdf" />
+    <Content Include="Content\PolicyAndForm\Fees_Policy.pdf" />
     <Content Include="Content\RoomHandBooks\GWCC_Babies_Handbook.pdf" />
     <Content Include="Content\RoomHandBooks\GWCC_Junior_Kindy_Handbook.pdf" />
-    <Content Include="Content\PolicyAndForm\Fees_Policy.pdf" />
     <Content Include="Content\RoomHandBooks\GWCC_Nursery_Handbook.pdf" />
-    <Content Include="Content\RoomHandBooks\GWCC_Kindergarten_Handbook_Dec_2018.pdf" />
+    <Content Include="Content\RoomHandBooks\GWCC_Kindergarten_Handbook.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\GWCC.pubxml" />
+    <None Include="Properties\PublishProfiles\ha11.com.au - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -302,7 +274,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\img\photos\editted\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
